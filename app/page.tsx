@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Movie, MovieDetail } from '../types/movie';
 import { searchMovies, getMovieDetails } from '../utils/api';
 import SearchBar from '../components/SearchBar';
